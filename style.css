@@ -172,8 +172,33 @@ section {
   }
 }
 
+.work-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col1 {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.col2 {
+  padding: 3rem;
+}
+
 .work-content h1 {
   font-size: 28px;
+  text-align: center;
+}
+
+.article-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
