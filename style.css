@@ -136,8 +136,8 @@ section {
 }
 
 .main {
-  flex: 3;
-  padding: 2rem;
+  flex: 5;
+  padding: 3rem;
 }
 
 .bio-image {
@@ -216,11 +216,31 @@ iframe {
   margin-top: 2rem;
 }
 
+.dpca-image {
+  width: 500px;
+  height: 500px;
+  background-image: url("antardpca.jpeg");
+  background-size: cover;
+  float: right;
+  border-radius: 50%;
+  shape-outside: circle(50%);
+  margin-left: 2rem;
+}
+
 .endorsements {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
   margin-top: 2rem;
+}
+
+.endorsed {
+  margin-top: 5rem;
+}
+
+.endorsed h1 {
+  font-size: 28px;
+  text-align: center;
 }
 
 .endorsee {
