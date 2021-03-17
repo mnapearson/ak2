@@ -3,6 +3,22 @@
   font-family: "Noto Sans", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  padding: 1rem;
+}
+
 .backdrop {
   background-image: url("antarspeechcrowd.jpeg");
   background-size: cover;
@@ -35,7 +51,7 @@ nav {
   position: sticky;
   top: 0;
   background-color: white;
-  z-index: 1;
+  opacity: 80%;
   -webkit-animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -102,70 +118,6 @@ section {
   height: 100%;
 }
 
-.DAcampaign h1 {
-  font-size: 28px;
-  width: 60%;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.endorsements {
-  display: flex;
-
-  justify-content: space-evenly;
-  align-items: flex-start;
-  margin-top: 2rem;
-}
-
-.endorsee {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  margin: 2rem;
-  align-items: center;
-  justify-content: center;
-  line-height: 1.5rem;
-}
-
-.endorsee h2 {
-  margin-top: 1rem;
-  padding: 0;
-}
-
-.endorsee h3 {
-  margin-bottom: 1rem;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
-.endorsee p {
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  text-align: left;
-}
-
-.endorsee img {
-  height: 200px;
-  width: auto;
-  border-radius: 100%;
-}
-
-.contact {
-  display: flex;
-  justify-content: center;
-  background-color: white;
-}
-
-.contact-form iframe {
-  height: 1000px;
-  width: 700px;
-}
-
-.copyright {
-  display: flex;
-  align-items: center;
-}
-
 .bio {
   display: flex;
   flex-direction: column;
@@ -179,8 +131,8 @@ section {
 }
 
 .bio-image {
-  width: 600px;
-  height: 600px;
+  width: 700px;
+  height: 700px;
   background-image: url("antarspeech.jpeg");
   background-size: cover;
   float: left;
@@ -210,11 +162,73 @@ section {
   }
 }
 
-h2 {
-  font-size: 22px;
-  line-height: 2rem;
-  letter-spacing: 1px;
-  padding: 1rem;
+.DAcampaign h1 {
+  font-size: 28px;
+  width: 60%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.endorsements {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.endorsee {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5rem;
+}
+
+.endorsee h2 {
+  margin: 0.5rem 0;
+  padding: 0;
+  font-size: 26px;
+}
+
+.endorsee h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: normal;
+}
+
+.endorsee h4 {
+  margin-top: 0.5rem;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: normal;
+}
+
+.endorsee p {
+  margin-top: 1rem;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  text-align: left;
+}
+
+.endorsee img {
+  height: 200px;
+  width: auto;
+  border-radius: 100%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.contact-form iframe {
+  height: 1000px;
+  width: 700px;
 }
 
 footer h1 {
@@ -231,50 +245,6 @@ footer h1 {
     rgba(63, 94, 251, 1) 0%,
     rgba(252, 70, 225, 0) 90%
   );
-}
-
-#mc_embed_signup_scroll {
-  display: flex;
-  width: 50%;
-  margin-top: 1rem;
-  margin-bottom: 7rem;
-}
-
-input {
-  margin-right: 1rem;
-  padding: 10px 30px;
-  border: 1px solid black;
-  border-radius: 15px;
-  text-transform: uppercase;
-}
-
-.btn-grad {
-  text-align: center;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  background-color: black;
-  border-radius: 15px;
-  display: block;
-  cursor: pointer;
-}
-
-.btn-grad:hover {
-  background: #ffffff;
-  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
-  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
-  box-shadow: inset 0px 0px 5px #c1c1c1;
-  outline: none;
-  color: black;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: blue;
 }
 
 .legal {
