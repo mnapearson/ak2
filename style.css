@@ -24,6 +24,10 @@ h2 {
   padding: 1rem;
 }
 
+.copyright {
+  font-size: 12px;
+}
+
 .backdrop {
   background-image: url("antarspeechcrowd.jpeg");
   background-size: cover;
@@ -141,6 +145,8 @@ section {
 }
 
 .bio-image {
+  align-items: flex-end;
+  display: flex;
   width: 500px;
   height: 500px;
   background-image: url("antarspeech.jpeg");
@@ -149,6 +155,7 @@ section {
   border-radius: 50%;
   shape-outside: circle(50%);
   margin-right: 2rem;
+  line-height: 3rem;
 }
 
 .animation {
