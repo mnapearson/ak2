@@ -294,6 +294,10 @@ iframe {
   background-color: white;
 }
 
+.mobile-social {
+  display: none;
+}
+
 .contact-form iframe {
   height: 1000px;
   width: 700px;
