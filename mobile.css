@@ -131,8 +131,14 @@
     width: 30px;
   }
 
+  .contact {
+    padding: 2rem 0;
+  }
+
   .contact-form iframe {
-    width: 360px;
+    display: flex;
+    margin: 0;
+    width: 100vw;
   }
 
   footer h1 {
