@@ -128,6 +128,13 @@ section {
   padding: 7rem 2rem;
 }
 
+.dpca-ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 .bio {
   display: flex;
   flex-direction: column;
@@ -166,7 +173,7 @@ section {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   letter-spacing: 0.15em; /* Adjust as needed */
-  animation: typing 3s steps(40, end);
+  animation: typing 6s steps(40, end);
 }
 
 /* The typing effect */
@@ -221,6 +228,7 @@ section {
 
 iframe {
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .dpca-image {

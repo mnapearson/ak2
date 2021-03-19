@@ -4,7 +4,7 @@ window.onscroll = function () {
 
 var navbar = document.getElementById("nav");
 var section = document.getElementById("bio");
-var sticky = section.offsetTop - 100;
+var sticky = section.offsetTop - 60;
 var typewriter = document.getElementById("animation");
 
 function myFunction() {
